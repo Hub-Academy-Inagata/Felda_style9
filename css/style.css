@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+body{
+    font-family: "SF Pro Rounded", "Poppins";
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;;
+    width: 100wh;
+}
+
+/*Header*/
+header{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+header .navbar {
+    position: fixed;
+    width: 100vw;
+    padding: 0;
+    z-index: 45;
+}
+header .navbar-brand {
+    font-weight: 700;
+    padding: 20px 0;
+}
+header .navbar-brand img {
+    height: 38px;
+}
+header .navbar-nav a {
+    font-weight: 600;
+    margin-left: 4.5rem;
+    color: #fff;
+}
+header .btn-ppdb {
+    color: #fff;
+    font-weight: 400;
+    background-color: #1FA7FF;
+    padding: 4px 24px;
+    border-radius: 16px;
+    margin-left: 4.5rem;
+}
+header .navbar-nav a:active{
+    color: #1C2661 (209, 207, 207);
+}
+header .navbar-nav a:hover {
+    color: #1C2661 (209, 207, 207);
+}
+
+/*Home*/
+#home .title {
+    width: 100%;
+    text-align: justify;
+    padding-top: 130px;
+}
+.content h1 {
+    font-size: 3rem;
+    text-align: left;
+    color: #404040;
+    font-weight: 700;
+}
+#home img {
+    width: auto;
+    height: 80vh;
+}
+#home .btn-primary{
+    justify-content: center;
+    align-items: center;
+    padding: 12px 32px;
+    gap: 10px;
+    background: #1FA7FF;
+    border-radius: 16px;
+}
+
+/*Solutiion*/
+#solution {
+    background-color: #FAFAFA !important;
+}
+#solution .row {
+    padding: 25px;
+}
+#solution p {
+    font-size: 18px;
+    text-align: left;
+    color: #5E5E5E;
+    font-weight: 500;
+}
+.boxSolution {
+    height: auto;
+}
+.iconHover-primary {
+    padding: 16px;
+    background-color: #FF5F5F;
+    margin-bottom: 10px;
+    border-radius: 100px;
+    color: #fff;
+    margin-top: 10px;
+    justify-content: center;
+}
+.iconHover-secondary {
+    padding: 16px;
+    background-color: #FFD923;
+    margin-bottom: 10px;
+    border-radius: 100px;
+    color: #fff;
+    margin-top: 10px;
+    justify-content: center;
+}
+.iconHover-third {
+    padding: 16px;
+    background-color: #24D796;
+    margin-bottom: 10px;
+    border-radius: 100px;
+    color: #fff;
+    margin-top: 10px;
+    justify-content: center;
+}
