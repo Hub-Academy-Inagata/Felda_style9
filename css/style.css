@@ -52,6 +52,7 @@ header .navbar-nav a:hover {
     width: 100%;
     text-align: justify;
     padding-top: 130px;
+    justify-content: center;
 }
 .content h1 {
     font-size: 3rem;
@@ -82,8 +83,9 @@ header .navbar-nav a:hover {
 #solution p {
     font-size: 18px;
     text-align: left;
-    color: #5E5E5E;
+    color: #404040;
     font-weight: 500;
+    padding: 10px;
 }
 .boxSolution {
     height: auto;
@@ -109,6 +111,231 @@ header .navbar-nav a:hover {
 .iconHover-third {
     padding: 16px;
     background-color: #24D796;
+    margin-bottom: 10px;
+    border-radius: 100px;
+    color: #fff;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+/*About*/
+#about .row {
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+#about h4 {
+    font-size: 2.5rem;
+    text-align: left;
+    font-weight: 500;
+}
+#about p {
+    text-align: justify;
+}
+#about img {
+    width: auto;
+    height: 80vh;
+    margin-bottom: 25px;
+}
+#about .btn-primary{
+    justify-content: center;
+    align-items: center;
+    padding: 12px 32px;
+    gap: 10px;
+    background: #1FA7FF;
+    border-radius: 16px;
+}
+
+/*Partner*/
+#partner .row {
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 55px;
+
+}
+#partner p{
+    text-align: justify;
+}
+
+/*Activity*/
+#activity .container{
+    border-radius: 24px;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+#activity .row {
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+#activity h2 {
+    color: #fff;
+    font-weight: 700;
+}
+#activity h5 {
+    color: #fff;
+    text-align: right;
+}
+#activity .container .row .content-activity {
+    border-radius: 10px;
+    min-height: auto;
+    background-color: #fff;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+#activity .container .row .content-activity img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+#activity .container .row .content-activity h4 {
+    color: #1FA7FF;
+    padding-left: 15px;
+    padding-top: 20px;
+}
+
+/*Recomendation*/
+#recomendation .row {
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+#recomendation h4 {
+    font-size: 2.5rem;
+    text-align: left;
+    font-weight: 500;
+}
+#recomendation p {
+    text-align: justify;
+}
+#recomendation img {
+    width: auto;
+    height: 80vh;
+    margin-bottom: 25px;
+}
+#recomendation .btn-primary{
+    justify-content: center;
+    align-items: center;
+    padding: 12px 32px;
+    gap: 10px;
+    background: #1FA7FF;
+    border-radius: 16px;
+}
+
+/*Information*/
+#information .row {
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+#information h2 {
+    font-weight: 700;
+    color: #404040;
+}
+#information h4{
+    font-weight: 500;
+    margin-top: 20px;
+}
+#information .link {
+    color: #1FA7FF;
+    text-decoration: none;
+    padding-left: 55px;
+}
+#information .container .row .content-activity {
+    border-radius: 10px;
+    min-height: auto;
+    background-color: #fff;
+    justify-content: center;
+    padding: 15px;
+}
+#information .container .row .content-activity img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+/*Footer*/
+footer {
+    margin-top: 120px;
+}
+footer img {
+    width: 100px;
+    padding: 16px 0px;
+}
+footer h5{
+    text-align: left;
+    color: #404040;
+    font-weight: 700;
+}
+footer p.note {
+    width: 80%;
+    text-align: justify;
+    margin-top: 10px;
+}
+footer .icon img{
+    width: auto;
+    margin-bottom: 30px;
+}
+footer ul.vertical {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 25px;
+}
+footer ul.vertical li {
+    margin-top: 30px;
+}
+footer ul.vertical li a {
+    color: #000000;
+    padding: 0;
+    text-decoration: none;
+}
+footer ul.vertical li a:hover {
+    color: #404040 (209, 207, 207);
+}
+footer ul.vertical li i {
+    color: #404040;
+    padding: 8px;
+}
+
+
+/*Superiority*/
+#more-about h1 {
+    text-align: left;
+    color: #404040;
+    font-weight: 700;
+}
+#more-about h5 {
+    font-size: 1.5rem;
+    text-align: left;
+    font-weight: 700;
+}
+#more-about p {
+    text-align: left;
+}
+#more-about .iconHover-primary {
+    padding: 16px;
+    background-color: #FFD923;
+    margin-bottom: 10px;
+    border-radius: 100px;
+    color: #fff;
+    margin-top: 10px;
+    justify-content: center;
+}
+#more-about .iconHover-secondary {
+    padding: 16px;
+    background-color: #FF5F5F;
+    margin-bottom: 10px;
+    border-radius: 100px;
+    color: #fff;
+    margin-top: 10px;
+    justify-content: center;
+}
+#more-about .iconHover-third {
+    padding: 16px;
+    background-color: #1FA7FF;
     margin-bottom: 10px;
     border-radius: 100px;
     color: #fff;
