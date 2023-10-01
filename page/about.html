@@ -4,42 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
 
-    <!-- Header Start -->
-    <header style="background-image: url(../img/background.png);">
-        <nav id="navbar" class="navbar-expand-lg">
-            <div class="container d-flex align-items-center justify-content-between">
-                <a class="navbar-brand" href="#home">
-                    <img src="../img/logo.png" alt="">
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent fixed-top">
+        <div class="container navbar-content d-flex align-items-center">
+            <a class="navbar-brand" href="#">
+                <img src="../img/logo.png">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active my-3 mx-3" aria-current="page" href="../index.html">Beranda</a>
+                    </li>
+                    <li class="nav-item my-3 mx-3">
+                        <a class="nav-link" href="../page/about.html">Tentang Kita</a>
+                    </li>
+                    <li class="nav-item my-3 mx-3">
+                        <a class="nav-link" href="../page/article.html">Berita</a>
+                    </li>
+                    <li class="nav-item my-3 mx-3">
+                        <a class="nav-link" href="../page/gallery.html">Galeri</a>
+                    </li>
+                    <li class="nav-item my-3 mx-3">
+                        <a class="nav-link" href="../page/contant.html">Kontak</a>
+                    </li>
+                </ul>
+                <button type="button" class="btn btn btn-primary rounded-pill">
+                    PPDB
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav ms-auto">
-                        <a class="nav-link" href="#solution">Beranda</a>
-                        <a class="nav-link" href="page/about.html">Tentang</a>
-                        <a class="nav-link" href="page/gallery.html">Galeri</a>
-                        <a class="nav-link" href="page/article.html">Artikel</a>
-                        <a class="nav-link" href="page/contact.html">Kontak</a>
-                    </div>
-                    <div class="text-center">
-                        <a href="#" class="btn btn-ppdb">PPDB</a>
-                    </div>
-                </div>
             </div>
-        </nav>
-
+        </div>
+    </nav>
+    <!-- Navbar End -->
+    
+    <!-- Header Start -->
+    <header>
         <!-- Home Start -->
-        <section class="content" id="home">
+        <section class="content" id="home" style="background-image: url(../img/background.png);">
             <div class="container">
                 <div class="row d-flex align-items-center">
                     <div class="col-md-6">
@@ -52,13 +61,12 @@
                         </p>
                     </div>
                     <div class="col-md-6 img">
-                        <img class="float-md-end" src="../img/about.png" alt="">
+                        <img class="img-fluid" src="../img/about.png" alt="">
                     </div>
                 </div>
             </div>
         </section>
-        <!-- Home End -->
-
+    <!-- Home End -->
     </header>
     <!-- Header End -->
 
@@ -67,7 +75,7 @@
         <div class="container">
             <div class="row d-flex align-items-center">
                 <div class="col-md-6">
-                    <img src="../img/pict1.png">
+                    <img class="img-fluid" src="../img/pict1.png">
                 </div>
                 <div class="col-md-6">
                     <h1>Sekolah Alam Insan <br>
@@ -128,7 +136,7 @@
                 <h1 class="text-center my-3">Video Profil</h1>
                 <h5 class="text-center">Berikut adalah video profil dari sekolah kami</h5>
                 <a href="https://youtu.be/1MILPY1bPVY?si=jllCYUKUjWny9kBE">
-                    <img src="../img/video.png" alt="">
+                    <img class="img-fluid" src="../img/video.png" alt="">
                 </a>
             </div>
         </div>
@@ -207,30 +215,30 @@
     <section class="content" id="all-partners">
         <div class="container mt-5">
             <h1 class="text-center">Partner Kerja Sama</h1>
-            <p class="text-center">Kami Bekerja sama dengan berbagai lembaga Diseluruh Indonesia untuk menyalurkan bakat siswa kami </p>
-            <div class="row d-flex align-items-center">
-                <div class="col-md-1">
-                    <img src="../img/partner1.png">
+            <p class="text-center">Kami Bekerja sama dengan berbagai lembaga Diseluruh Indonesia untuk menyalurkan bakat siswa kami</p>
+            <div class="row align-items-center justify-content-center m-1 p-0">
+                <div class="col-lg-2 col-md-2 col-sm-6 text-center">
+                  <img class="img-fluid" src="../img/partner1.png">
                 </div>
-                <div class="col-md-1">
-                    <img src="../img/partner2.png">
+                <div class="col-lg-2 col-md-2 col-sm-6 text-center">
+                  <img class="img-fluid" src="../img/partner2.png">
                 </div>
-                <div class="col-md-1">
-                    <img src="../img/partner3.png">
+                <div class="col-lg-2 col-md-2 col-sm-6 text-center">
+                  <img class="img-fluid" src="../img/partner3.png">
                 </div>
-                <div class="col-md-1">
-                    <img src="../img/partner4.png">
+                <div class="col-lg-2 col-md-2 col-sm-6 text-center">
+                  <img class="img-fluid" src="../img/partner4.png">
                 </div>
-                <div class="col-md-1">
-                    <img src="../img/partner6.png">
+                <div class="col-lg-2 col-md-2 col-sm-6 text-center">
+                  <img class="img-fluid" src="../img/partner5.png">
                 </div>
-                <div class="col-md-1">
-                    <img src="../img/partner4.png">
-                </div>
-                <div class="col-md-2">
-                    <img src="../img/partner6.png">
-                </div>
-            </div>
+                <div class="col-lg-2 col-md-2 col-sm-6 text-center">
+                    <img class="img-fluid" src="../img/partner6.png">
+                  </div>
+                  <div class="col-lg-2 col-md-2 col-sm-6 text-center">
+                    <img class="img-fluid" src="../img/partner5.png">
+                  </div>
+              </div>
         </div>
     </section>
     <!-- All Partners End -->
@@ -279,8 +287,7 @@
         </div>
     </footer>
     <!-- Footer End -->
-
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/62bf956e5e.js" crossorigin="anonymous"></script>
 
 </body>
