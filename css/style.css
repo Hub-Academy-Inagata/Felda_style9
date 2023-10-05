@@ -122,8 +122,8 @@ header .btn-ppdb {
 
 /*Home*/
 #home img {
-    width: auto;
-    height: 100%;
+    width: 100%;
+    height: auto;
     margin-top: 100px;
 }
 
