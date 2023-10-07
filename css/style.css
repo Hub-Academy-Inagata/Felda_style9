@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
 body{
-    font-family: "SF Pro Rounded", "Poppins";
+    font-family: "Poppins";
     box-sizing: border-box;
     margin: 0;
     padding: 0;;
@@ -113,11 +113,11 @@ header .btn-ppdb {
     margin-left: 4.5rem;
 }
 .navbar-nav a:active{
-    color: #1C2661 (209, 207, 207);
+    color: #fff (209, 207, 207);
     text-decoration: underline;
 }
 .navbar-nav a:hover {
-    color: #1C2661 (209, 207, 207);
+    color: #fff (209, 207, 207);
 }
 
 /*Home*/
@@ -396,7 +396,6 @@ footer ul.vertical li i {
         min-height: auto;
         background-color: #fff;
         justify-content: center;
-        padding: 15px;
     }
     #about .row img {
         width: 100%;
