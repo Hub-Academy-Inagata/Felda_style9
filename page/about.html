@@ -132,13 +132,31 @@
 
     <!-- Video Start -->
     <section class="content" id="video">
-        <div class="container mt-5">
+        <div class="container my-5">
             <div class="row d-flex align-items-center">
                 <h1 class="text-center my-3">Video Profil</h1>
                 <h5 class="text-center">Berikut adalah video profil dari sekolah kami</h5>
-                <a href="https://youtu.be/1MILPY1bPVY?si=jllCYUKUjWny9kBE">
-                    <img class="img-fluid" data-aos="fade-up" src="../img/video.png" alt="">
-                </a>
+            </div>
+        </div>
+        <div class="position-relative text-center">
+            <img src="../img/btn-play.png" id="btn-play" data-bs-toggle="modal" data-bs-target="#videoModal">
+            <img src="../img/video.png" class="img-fluid mx-auto" id="bgv">
+        </div>
+        
+        <!-- Modal Video -->
+        <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="videoModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content position-relative">
+                    <div class="modal-header">
+                        <button type="button" class="btn btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                    <!-- Video dari YouTube (dengan iframe) -->
+                        <div class="ratio ratio-16x9">
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/tpflPFyCIkY?si=txpjtdFlU3CIu8mr" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>

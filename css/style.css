@@ -258,11 +258,20 @@ footer ul.vertical li i {
 }
 
 /*Video*/
-#video img {
-    height: 100%;
+#btn-play{
+    height: 100px;
     width: auto;
-    margin-top: 24px;
-    margin-bottom: 160px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+#bgv{
+  height: 100%;
+  width: auto;
+  margin-top: 24px;
+  margin-bottom: 160px;
 }
 
 /*Teachers*/
