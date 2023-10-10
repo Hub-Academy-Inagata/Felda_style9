@@ -410,6 +410,22 @@ footer ul.vertical li i {
         width: 100%;
         height: auto;
     }
+    #btn-play{
+        height: auto;
+        width: 100%;
+    }
+    #bgv{
+      height: auto;
+      width: 100%;
+    }
+    #new-info img {
+        height: auto;
+        width: 100%;
+    }
+    #img-article img {
+        width: 100%;
+        height: auto;
+    }    
     #recomendation .row img {
         width: 100%;
         height: auto;
