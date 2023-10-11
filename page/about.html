@@ -151,9 +151,9 @@
                         <button type="button" class="btn btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                    <!-- Video dari YouTube (dengan iframe) -->
+                    <!-- Video YouTube menggunakan iframe) -->
                         <div class="ratio ratio-16x9">
-                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/tpflPFyCIkY?si=txpjtdFlU3CIu8mr" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/9HENYIWKb3A?enablejsapi=1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>
@@ -340,6 +340,16 @@
     });
     </script>
     <!-- Navbar End -->
+
+    <!-- Youtube Video Start -->
+    <script>
+    const videoIframe = document.querySelector('#videoModal iframe');
+    const closeButton = document.querySelector('#videoModal .btn-close');
+    closeButton.addEventListener("click", function () {
+        videoIframe.contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*');
+    });
+    </script>
+    <!-- Youtube Video Start -->
 
 </body>
 </html>
