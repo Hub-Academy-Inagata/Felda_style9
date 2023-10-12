@@ -373,6 +373,13 @@ footer ul.vertical li i {
     border-radius: 50px;
 }
 
+/*Responsive*/
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 
 /* Responsive */
 @media screen and (max-width: 991px) {
@@ -409,6 +416,15 @@ footer ul.vertical li i {
     #about .row img {
         width: 100%;
         height: auto;
+    }
+    #btn-play{
+        height: 100px;
+        width: auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1;
     }
     #bgv{
       height: auto;
