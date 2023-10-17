@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import url("https://db.onlinewebfonts.com/c/ead4092f880f75ff0883ced1856b2c37?family=SF+Pro+Rounded+Regular"); 
 
 body{
     font-family: "Poppins";
@@ -20,6 +21,7 @@ body{
     margin-top: 16px;
 }
 h1 {
+    font-family: "SF Pro Rounded Regular";
     font-weight: 700;
     margin: 16px;
     margin-left: 0px;
@@ -47,43 +49,7 @@ p {
     font-weight: 400;
     margin: 8px;
     margin-left: 0px;
-    color: #3A3B41;
-}
-.iconHover-primary {
-    padding: 16px;
-    background-color: #FF5F5F;
-    margin-bottom: 10px;
-    border-radius: 100px;
-    color: #fff;
-    margin-top: 10px;
-    justify-content: center;
-}
-.iconHover-secondary {
-    padding: 16px;
-    background-color: #FFD923;
-    margin-bottom: 10px;
-    border-radius: 100px;
-    color: #fff;
-    margin-top: 10px;
-    justify-content: center;
-}
-.iconHover-third {
-    padding: 16px;
-    background-color: #24D796;
-    margin-bottom: 10px;
-    border-radius: 100px;
-    color: #fff;
-    margin-top: 10px;
-    justify-content: center;
-}
-.iconHover-fourth {
-    padding: 16px;
-    background-color: #1FA7FF;
-    margin-bottom: 10px;
-    border-radius: 100px;
-    color: #fff;
-    margin-top: 10px;
-    justify-content: center;
+    color: #787878;
 }
 
 /*Header*/
@@ -103,6 +69,10 @@ p {
     text-decoration: underline;
     color: #fff;
 }
+.nav-item a:hover {
+    border-bottom: 2px solid #fff;
+}
+
 
 header .btn-ppdb {
     color: #fff;
@@ -187,6 +157,7 @@ header .btn-ppdb {
     width: auto;
     height: 100%;
     margin-bottom: 60px;
+    margin-top: 60px;
 }
 
 /*Information*/
@@ -209,7 +180,7 @@ header .btn-ppdb {
 
 /*Footer*/
 footer {
-    margin-top: 60px;
+    margin-top: 24vh;
 }
 footer img {
     width: 100px;
@@ -252,6 +223,8 @@ footer ul.vertical li i {
 /*Superiority*/
 #more-about {
     background-color: #F8F8F8 !important;
+    padding-top: 16vh;
+    padding-bottom: 12vh;
 }
 #more-about .row div {
     padding: 16px;
@@ -270,8 +243,8 @@ footer ul.vertical li i {
 #bgv{
   height: 100%;
   width: auto;
-  margin-top: 24px;
   margin-bottom: 160px;
+  margin-top: 16px;
 }
 
 /*Teachers*/
@@ -288,14 +261,11 @@ footer ul.vertical li i {
 }
 
 /*all partners*/
-#all-partners .row {
-    align-items: center;
-    justify-content: center;
+#all-partners h1 {
+    padding-top: 64px;
 }
 #all-partners img {
-    height: 100%;
-    margin-top: 64px;
-    margin-bottom: 160px;
+    margin-top: 32px;
 }
 
 /*All Gallery*/
@@ -309,6 +279,9 @@ footer ul.vertical li i {
 #all-gallery .container .row .content-gallery img {
     width: 100%;
     border-radius: 24px;
+}
+#all-gallery h1 {
+    margin-top: 24vh;
 }
 
 /*Pagination*/
@@ -332,6 +305,16 @@ footer ul.vertical li i {
     height: 100%;
     width: auto;
 }
+#new-info h1 {
+    padding-top: 60px;
+}
+#nav-article a {
+    color: #404040;
+}
+#nav-article a:hover {
+    border-bottom: 2px solid #1FA7FF;
+}
+
 
 /*All Article*/
 #all-article .container .row .content-article {
@@ -384,7 +367,7 @@ body {
 /* Responsive */
 @media screen and (max-width: 991px) {
     .content {
-        padding: 60px 20px 0 20px;
+        padding: 24px 20px 0 20px;
     }
     .navbar-nav a {
         color: #404040;
@@ -399,13 +382,20 @@ body {
     #home img {
         width: 100%;
         height: auto;
+        transform: (1,1);
     }
     #solution {
         padding: 25px;
     }
+    #solution img {
+        max-width: 38px;
+    }
     #partner .row img {
-        width: 100%;
         height: auto;
+        padding-top: 8px;
+    }
+    #partner .container{
+        margin-top: 32px;
     }
     #activity .container .row .content-activity {
         border-radius: 10px;
@@ -413,15 +403,31 @@ body {
         background-color: #fff;
         justify-content: center;
     }
+    #footer-bottom {
+        margin-top: 8vh;
+    }
     #about .row img {
         width: 100%;
         height: auto;
+    }
+    #more-about {
+        padding-bottom: 0vh;
+        padding-top: 0px;
+    }
+    #more-about img {
+        max-width: 46px;
+    }
+    #recomendation .container {
+        margin-top: 32px;
+    }
+    #video {
+        padding: 0px;
     }
     #btn-play{
         height: 100px;
         width: auto;
         position: absolute;
-        top: 50%;
+        top: 35%;
         left: 50%;
         transform: translate(-50%, -50%);
         z-index: 1;
@@ -429,20 +435,125 @@ body {
     #bgv{
       height: auto;
       width: 100%;
+      padding-left: 24px;
+      padding-right: 24px;
+    }
+    #teachers {
+        padding: 0px;
+    }
+    #all-partners h1 {
+        padding-top: 0px;
+    }
+    #all-partners img {
+        margin-top: 24px;
+        max-width: 64px;
+        padding-left: 12px;
     }
     #new-info img {
         height: auto;
         width: 100%;
     }
+    #new-info h1 {
+        padding-top: 0px;
+    }
     #img-article img {
         width: 100%;
         height: auto;
     }    
+    #img-article h1 {
+        margin-top: 72px;
+    }
     #recomendation .row img {
         width: 100%;
         height: auto;
     }
     #detail-article .content {
         padding: 32px 20px 0 20px;
+    }
+    #all-gallery h1 {
+        margin-top: 12vh;
+    }
+}
+
+/* Responsive Smartphone */
+@media screen and (max-width: 428px) {
+    .content {
+        padding: 32px 20px 0 20px
+    }
+    #home h1 {
+        padding-top: 32px;
+    }
+    #home img {
+        margin-top: 64px;
+    }
+    .btn-primary {
+        width: 100%;
+        text-align: center;
+    }
+    #about .btn-primary {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 32px;
+    }
+    .navbar-nav a {
+        text-align: center;
+    }
+    #activity .container {
+        margin-bottom: 24px;
+    }
+    #about img {
+        margin-top: 0px;
+    }
+    #more-about .container {
+        margin-top: 32px;
+    }
+    #recomendation img {
+        margin-bottom: 0px;
+    }
+    #information .link {
+        margin: 0px
+    }
+    #footer-bottom {
+        padding-top: 6vh;
+    }
+    #more-about {
+        padding-bottom: 1vh;
+        margin-top: 8vh;
+        padding-top: 8vh;
+    }
+    #more-about .row div {
+        padding: 12px;
+    }
+    #btn-play{
+        max-height: 46px;
+        width: auto;
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+    }
+    #pagination {
+        text-align: center;
+    }
+    #contact .btn-primary {
+        margin-top: 6px;
+        margin-bottom: 12px;
+    }
+    #img-article h1 {
+        margin-top: 32px;
+    }
+    #detail-article .content {
+        padding: 0px 20px 0 20px
+    }
+    #new-info h1 {
+        padding-top: 0px;
+    }
+    #all-gallery h1 {
+        margin-top: 8vh;
+    }
+    #contact .btn-primary {
+        margin-top: 12px;
+        margin-bottom: 12vh;
     }
 }
